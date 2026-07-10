@@ -113,7 +113,7 @@ A CUDA-capable GPU is strongly recommended for training; the script supports mul
    - Set `HDF5_PATH` to the location of your sectioned point cloud `.h5` file
    - Update the `wandb.init(...)` call with your own W&B `entity`/`project`, or disable W&B logging
    - Adjust `GROUP_VALUES` / `GROUP_CHAR_INDEX` if you want to classify by a different identifier position (e.g. material or infill instead of printer)
-   - Adjust `batch_size` parameter based on available GPU memory
+   - Adjust `batch_size` parameter based on available GPU VRAM
 4. **Run training:**
    ```bash
    python pcd_train.py
