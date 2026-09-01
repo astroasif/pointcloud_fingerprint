@@ -123,9 +123,19 @@ A CUDA-capable GPU is strongly recommended for training; the script supports mul
 
 If you use this code or dataset, please cite:
 
-> *Additive Manufacturing Source Identification from Internal Void Structures using X-Ray Computed Tomography and Point Cloud Deep Learning*
+> Rashid, A., Whealton, C., Bimrose, M. V., Zheng, W., Conway, C. H., Kabir, H., & King, W. P. (2026). Additive manufacturing source identification from internal void structures using X-ray computed tomography and point cloud deep learning. *Journal of Manufacturing Processes*, *175*, 560–575. https://doi.org/10.1016/j.jmapro.2026.08.055
 
-(Full citation details to be added upon publication.)
+```bibtex
+@article{rashid2026additive,
+  title   = {Additive manufacturing source identification from internal void structures using X-ray computed tomography and point cloud deep learning},
+  author  = {Rashid, Asif and Whealton, Charles and Bimrose, Miles V. and Zheng, Weixuan and Conway, Christopher H. and Kabir, Hossein and King, William P.},
+  journal = {Journal of Manufacturing Processes},
+  volume  = {175},
+  pages   = {560--575},
+  year    = {2026},
+  doi     = {10.1016/j.jmapro.2026.08.055}
+}
+```
 
 ## Acknowledgments
 
